@@ -19,6 +19,10 @@
     border-radius: var(--border-circle);
     background-color: hsl(209, 20%, 23%);
     margin-bottom: 2rem;
+    @media screen and (max-width: 430px) {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
   }
   &__title {
     color: var(--color-white);
@@ -62,6 +66,10 @@
     background-color: hsl(209, 20%, 23%);
     cursor: pointer;
     transition: all 100ms ease-in-out;
+    @media screen and (max-width: 430px) {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
     &__value {
       color: var(--color-light-grey);
       font-weight: 700;
